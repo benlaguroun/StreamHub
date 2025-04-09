@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Play, Tv2, Radio } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Play, Tv2, Radio } from "lucide-react";
 
 const LiveTV = () => {
   return (
@@ -15,7 +15,8 @@ const LiveTV = () => {
           >
             <h1 className="text-4xl font-bold mb-4">Live TV Channels</h1>
             <p className="text-muted-foreground">
-              Watch your favorite channels live in HD quality. Never miss a moment of live entertainment.
+              Watch your favorite channels live in HD quality. Never miss a
+              moment of live entertainment.
             </p>
           </motion.div>
         </div>
@@ -42,7 +43,7 @@ const ChannelCard = ({ index }: { index: number }) => (
   >
     <div className="relative aspect-video rounded-md overflow-hidden mb-4">
       <img
-        src={`https://images.unsplash.com/photo-156518${index}000-5c71f6e4?auto=format&fit=crop&q=80`}
+        src={`https://images.unsplash.com/photo-1616530940355-351fabd9524b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D${index}000-5c71f6e4?auto=format&fit=crop&q=80`}
         alt="Channel preview"
         className="object-cover w-full h-full"
       />
@@ -55,7 +56,9 @@ const ChannelCard = ({ index }: { index: number }) => (
     </div>
     <div className="flex items-center justify-between">
       <div>
-        <h3 className="font-medium group-hover:text-primary">Channel {index + 1}</h3>
+        <h3 className="font-medium group-hover:text-primary">
+          Channel {index + 1}
+        </h3>
         <p className="text-sm text-muted-foreground">Now Playing: Show Title</p>
       </div>
       {index % 2 === 0 ? (

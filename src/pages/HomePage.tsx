@@ -1,7 +1,15 @@
-import React from 'react';
-import { Play, Star, TrendingUp, Tv2, Film, Trophy, ChevronRight } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import React from "react";
+import {
+  Play,
+  Star,
+  TrendingUp,
+  Tv2,
+  Film,
+  Trophy,
+  ChevronRight,
+} from "lucide-react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -11,15 +19,16 @@ const HomePage = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1578022761797-b8636ac1773c?auto=format&fit=crop&q=80)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1578022761797-b8636ac1773c?auto=format&fit=crop&q=80)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         </div>
-        
+
         <div className="container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -31,14 +40,18 @@ const HomePage = () => {
               Unlimited Entertainment at Your Fingertips
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Stream live TV, movies, and sports anywhere, anytime. Start your journey today with our premium content library.
+              Stream live TV, movies, and sports anywhere, anytime. Start your
+              journey today with our premium content library.
             </p>
             <div className="flex space-x-4">
               <Link to="/browse" className="btn btn-primary">
                 <Play className="w-5 h-5 mr-2" />
                 Start Watching
               </Link>
-              <Link to="/plans" className="btn bg-muted text-foreground hover:bg-muted/80">
+              <Link
+                to="/plans"
+                className="btn bg-muted text-foreground hover:bg-muted/80"
+              >
                 View Plans
               </Link>
             </div>
@@ -88,14 +101,14 @@ const HomePage = () => {
   );
 };
 
-const CategoryCard = ({ 
-  icon, 
-  title, 
-  description, 
-  link 
-}: { 
-  icon: React.ReactNode; 
-  title: string; 
+const CategoryCard = ({
+  icon,
+  title,
+  description,
+  link,
+}: {
+  icon: React.ReactNode;
+  title: string;
   description: string;
   link: string;
 }) => (
@@ -105,7 +118,9 @@ const CategoryCard = ({
       className="card group cursor-pointer border border-muted/20 hover:border-primary/50 transition-colors"
     >
       <div className="mb-4">{icon}</div>
-      <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">{title}</h3>
+      <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
+        {title}
+      </h3>
       <p className="text-muted-foreground">{description}</p>
       <div className="mt-4 flex items-center text-primary">
         <span className="text-sm">Learn more</span>
@@ -115,12 +130,12 @@ const CategoryCard = ({
   </Link>
 );
 
-const ContentSection = ({ 
-  title, 
-  icon, 
-  items 
-}: { 
-  title: string; 
+const ContentSection = ({
+  title,
+  icon,
+  items,
+}: {
+  title: string;
   icon: React.ReactNode;
   items: number[];
 }) => (
@@ -131,7 +146,10 @@ const ContentSection = ({
           <h2 className="text-2xl font-bold">{title}</h2>
           {icon}
         </div>
-        <Link to="/browse" className="text-primary hover:text-primary/80 flex items-center">
+        <Link
+          to="/browse"
+          className="text-primary hover:text-primary/80 flex items-center"
+        >
           <span>View All</span>
           <ChevronRight className="w-4 h-4 ml-1" />
         </Link>
@@ -153,7 +171,9 @@ const ContentSection = ({
                 <Play className="w-12 h-12 text-primary" />
               </div>
             </div>
-            <h3 className="font-medium group-hover:text-primary transition-colors">Title {i}</h3>
+            <h3 className="font-medium group-hover:text-primary transition-colors">
+              Title {i}
+            </h3>
             <div className="flex items-center text-sm text-muted-foreground">
               <Star className="w-4 h-4 text-primary mr-1" />
               <span>4.{i}/5</span>
