@@ -43,7 +43,7 @@ const ChannelCard = ({ index }: { index: number }) => (
   >
     <div className="relative aspect-video rounded-md overflow-hidden mb-4">
       <img
-        src={`https://images.unsplash.com/photo-1616530940355-351fabd9524b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D${index}000-5c71f6e4?auto=format&fit=crop&q=80`}
+        src={`https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D${index}000-5c71f6e4?auto=format&fit=crop&q=80`}
         alt="Channel preview"
         className="object-cover w-full h-full"
       />
