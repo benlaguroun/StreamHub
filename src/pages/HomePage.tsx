@@ -163,7 +163,7 @@ const ContentSection = ({
           >
             <div className="relative aspect-[2/3] rounded-md overflow-hidden mb-3">
               <img
-                src={`https://images.unsplash.com/photo-156518${i}000-5c71f6e4?auto=format&fit=crop&q=80`}
+                src={`https://pics.filmaffinity.com/The_Fabelmans-691115932-large.jpg`}
                 alt="Content thumbnail"
                 className="object-cover w-full h-full transform group-hover:scale-110 transition-transform duration-300"
               />

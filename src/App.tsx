@@ -1,12 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
-import LiveTV from './pages/LiveTV';
-import Plans from './pages/Plans';
-import Dashboard from './pages/Dashboard';
-import Auth from './pages/Auth';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
+import LiveTV from "./pages/LiveTV";
+import Plans from "./pages/PlansPage";
+import Dashboard from "./pages/Dashboard";
+import MoviesShows from "./pages/MoviesShows";
+import Auth from "./pages/Auth";
+import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/live" element={<LiveTV />} />
-            
+
             <Route path="/plans" element={<Plans />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/auth" element={<Auth />} />
+            <Route path="/movies-shows" element={<MoviesShows />} />
           </Routes>
         </motion.div>
       </AnimatePresence>
