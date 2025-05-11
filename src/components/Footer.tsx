@@ -44,7 +44,7 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
           <p className="flex items-center text-sm mb-2">
-            <Mail className="w-4 h-4 mr-2" /> support@nitflex.com
+            <Mail className="w-4 h-4 mr-2" /> support@streamhub.com
           </p>
           <p className="flex items-center text-sm">
             <Phone className="w-4 h-4 mr-2" /> +1 (555) 123-4567
