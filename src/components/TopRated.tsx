@@ -35,6 +35,22 @@ const topRatedMovies = [
       "https://i.pinimg.com/736x/b0/ae/a4/b0aea49646879a043ad9f6ec3002e99f.jpg",
     trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
   },
+  {
+    id: 1,
+    title: "Top Gun: Maverick",
+    rating: 4.7,
+    image:
+      "https://i.pinimg.com/736x/dc/77/a2/dc77a2ce208d4333898c1650f6d2fba7.jpg",
+    trailer: "https://www.youtube.com/embed/giXco2jaZ_4",
+  },
+  {
+    id: 2,
+    title: "The Fabelmans",
+    rating: 4.5,
+    image:
+      "https://i.pinimg.com/736x/ae/4b/6a/ae4b6afb99c94afa9b556e3a57816080.jpg",
+    trailer: "https://www.youtube.com/embed/D1G2iLSzOe8",
+  },
 ];
 
 const TopRated = () => {
