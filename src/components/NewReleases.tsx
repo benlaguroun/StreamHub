@@ -9,7 +9,7 @@ const newReleases = [
     title: "Damsel",
     rating: 4.5,
     image:
-      "https://m.media-amazon.com/images/M/MV5BMjY3NzJkNDYtYTRmYy00ZWI4LWIwNDMtMTI2MDViYzVkYmI2XkEyXkFqcGdeQXVyMTA1NTM1NDI2._V1_.jpg",
+      "https://i.pinimg.com/736x/b0/ac/b9/b0acb9dc4a10922d8510673560cfbcf2.jpg",
     trailer: "https://www.youtube.com/embed/x7Krla_UxRg",
   },
   {
@@ -17,7 +17,7 @@ const newReleases = [
     title: "Atlas",
     rating: 4.4,
     image:
-      "https://m.media-amazon.com/images/M/MV5BMGE0MWVmODUtNDE4Ni00ZGE5LWI2M2YtM2Q3MTgyOTk3ODJjXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+      "https://i.pinimg.com/736x/f8/a9/bf/f8a9bf24eb3117e583e4155e455e5260.jpg",
     trailer: "https://www.youtube.com/embed/GEgRrVYrCzA",
   },
   {
@@ -25,7 +25,7 @@ const newReleases = [
     title: "Rebel Moon",
     rating: 4.2,
     image:
-      "https://m.media-amazon.com/images/M/MV5BZjZkYjc0ZGItOTdhNi00ZDE0LTgxMmItYWM2MTYzZGVjNjA0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "https://i.pinimg.com/736x/97/da/52/97da52f84437a633ec3c7f73dfba0181.jpg",
     trailer: "https://www.youtube.com/embed/_rHLOXbFZtI",
   },
   {
@@ -33,7 +33,39 @@ const newReleases = [
     title: "Lift",
     rating: 4.3,
     image:
-      "https://m.media-amazon.com/images/M/MV5BNTg5MDk0OTItN2U0ZS00ZTQ1LWFjYzYtYjgxZDViN2ZjODAxXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+      "https://i.pinimg.com/736x/1d/86/33/1d86336f27118f3e12e2e5fe7cacecfd.jpg",
+    trailer: "https://www.youtube.com/embed/lPrfzL-kkCw",
+  },
+  {
+    id: 1,
+    title: "Damsel",
+    rating: 4.5,
+    image:
+      "https://i.pinimg.com/736x/b0/ac/b9/b0acb9dc4a10922d8510673560cfbcf2.jpg",
+    trailer: "https://www.youtube.com/embed/x7Krla_UxRg",
+  },
+  {
+    id: 2,
+    title: "Atlas",
+    rating: 4.4,
+    image:
+      "https://i.pinimg.com/736x/f8/a9/bf/f8a9bf24eb3117e583e4155e455e5260.jpg",
+    trailer: "https://www.youtube.com/embed/GEgRrVYrCzA",
+  },
+  {
+    id: 3,
+    title: "Rebel Moon",
+    rating: 4.2,
+    image:
+      "https://i.pinimg.com/736x/97/da/52/97da52f84437a633ec3c7f73dfba0181.jpg",
+    trailer: "https://www.youtube.com/embed/_rHLOXbFZtI",
+  },
+  {
+    id: 4,
+    title: "Lift",
+    rating: 4.3,
+    image:
+      "https://i.pinimg.com/736x/1d/86/33/1d86336f27118f3e12e2e5fe7cacecfd.jpg",
     trailer: "https://www.youtube.com/embed/lPrfzL-kkCw",
   },
 ];

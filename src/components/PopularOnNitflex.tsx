@@ -8,28 +8,64 @@ const popularMovies = [
     id: 1,
     title: "Stranger Things",
     rating: 4.9,
-    image: "https://pics.filmaffinity.com/Stranger_Things-832229601-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/88/56/4f/88564fb3a6a56236d00851382b59a036.jpg",
     trailer: "https://www.youtube.com/embed/b9EkMc79ZSU",
   },
   {
     id: 2,
     title: "Wednesday",
     rating: 4.8,
-    image: "https://pics.filmaffinity.com/Wednesday-635911861-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/f2/53/24/f25324402fb725b7410ee3e316aec6f3.jpg",
     trailer: "https://www.youtube.com/embed/Q73UhUTs6y0",
   },
   {
     id: 3,
     title: "The Witcher",
     rating: 4.6,
-    image: "https://pics.filmaffinity.com/The_Witcher-503111445-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/a9/c2/7a/a9c27ad7158cb1efb72409bf0546c336.jpg",
     trailer: "https://www.youtube.com/embed/ndl1W4ltcmg",
   },
   {
     id: 4,
     title: "You",
     rating: 4.5,
-    image: "https://pics.filmaffinity.com/You-424238196-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/f9/d3/63/f9d3632cbdddae501b07a4d754424e6f.jpg",
+    trailer: "https://www.youtube.com/embed/xAN1ThhTWsE",
+  },
+  {
+    id: 1,
+    title: "Stranger Things",
+    rating: 4.9,
+    image:
+      "https://i.pinimg.com/736x/88/56/4f/88564fb3a6a56236d00851382b59a036.jpg",
+    trailer: "https://www.youtube.com/embed/b9EkMc79ZSU",
+  },
+  {
+    id: 2,
+    title: "Wednesday",
+    rating: 4.8,
+    image:
+      "https://i.pinimg.com/736x/f2/53/24/f25324402fb725b7410ee3e316aec6f3.jpg",
+    trailer: "https://www.youtube.com/embed/Q73UhUTs6y0",
+  },
+  {
+    id: 3,
+    title: "The Witcher",
+    rating: 4.6,
+    image:
+      "https://i.pinimg.com/736x/a9/c2/7a/a9c27ad7158cb1efb72409bf0546c336.jpg",
+    trailer: "https://www.youtube.com/embed/ndl1W4ltcmg",
+  },
+  {
+    id: 4,
+    title: "You",
+    rating: 4.5,
+    image:
+      "https://i.pinimg.com/736x/f9/d3/63/f9d3632cbdddae501b07a4d754424e6f.jpg",
     trailer: "https://www.youtube.com/embed/xAN1ThhTWsE",
   },
 ];
@@ -41,7 +77,7 @@ const PopularOnNitflex = () => {
     <section className="py-12">
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-6 flex items-center">
-          🍿 Popular on Nitflex
+          🍿 Popular on StreamHub
         </h2>
         <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
           {popularMovies.map((movie) => (

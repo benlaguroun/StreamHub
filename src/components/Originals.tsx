@@ -8,28 +8,64 @@ const originals = [
     id: 1,
     title: "Squid Game",
     rating: 4.9,
-    image: "https://pics.filmaffinity.com/Squid_Game-517932481-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/23/cc/bf/23ccbf28137082dc795cf308f74f5ec0.jpg",
     trailer: "https://www.youtube.com/embed/oqxAJKy0ii4",
   },
   {
     id: 2,
     title: "The Crown",
     rating: 4.7,
-    image: "https://pics.filmaffinity.com/The_Crown-492883416-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/10/fb/be/10fbbe0bf276b7b74f1c9a1cc84ee92e.jpg",
     trailer: "https://www.youtube.com/embed/JWtnJjn6ng0",
   },
   {
     id: 3,
     title: "Dark",
     rating: 4.8,
-    image: "https://pics.filmaffinity.com/Dark-619196812-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/94/00/10/940010831c9010d9bea0f40aff4c5fdb.jpg",
     trailer: "https://www.youtube.com/embed/cq2iTHoLrt0",
   },
   {
     id: 4,
     title: "Money Heist",
     rating: 4.6,
-    image: "https://pics.filmaffinity.com/Money_Heist-898047371-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/6e/42/0b/6e420b7bd2a65359258ee4c5ee1501dd.jpg",
+    trailer: "https://www.youtube.com/embed/p_PJbmrX4uk",
+  },
+  {
+    id: 1,
+    title: "Squid Game",
+    rating: 4.9,
+    image:
+      "https://i.pinimg.com/736x/23/cc/bf/23ccbf28137082dc795cf308f74f5ec0.jpg",
+    trailer: "https://www.youtube.com/embed/oqxAJKy0ii4",
+  },
+  {
+    id: 2,
+    title: "The Crown",
+    rating: 4.7,
+    image:
+      "https://i.pinimg.com/736x/10/fb/be/10fbbe0bf276b7b74f1c9a1cc84ee92e.jpg",
+    trailer: "https://www.youtube.com/embed/JWtnJjn6ng0",
+  },
+  {
+    id: 3,
+    title: "Dark",
+    rating: 4.8,
+    image:
+      "https://i.pinimg.com/736x/94/00/10/940010831c9010d9bea0f40aff4c5fdb.jpg",
+    trailer: "https://www.youtube.com/embed/cq2iTHoLrt0",
+  },
+  {
+    id: 4,
+    title: "Money Heist",
+    rating: 4.6,
+    image:
+      "https://i.pinimg.com/736x/6e/42/0b/6e420b7bd2a65359258ee4c5ee1501dd.jpg",
     trailer: "https://www.youtube.com/embed/p_PJbmrX4uk",
   },
 ];

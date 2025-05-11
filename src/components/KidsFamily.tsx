@@ -8,28 +8,64 @@ const kidsFamilyMovies = [
     id: 1,
     title: "Frozen II",
     rating: 4.6,
-    image: "https://pics.filmaffinity.com/Frozen_II-123456-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/8d/b2/0a/8db20a2a357704adb50c6baba3cef42a.jpg",
     trailer: "https://www.youtube.com/embed/Zi4LMpSDccc",
   },
   {
     id: 2,
     title: "Encanto",
     rating: 4.8,
-    image: "https://pics.filmaffinity.com/Encanto-987654-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/a8/ea/5b/a8ea5bc912d770ab0a4fd9bd912d2261.jpg",
     trailer: "https://www.youtube.com/embed/CaimKeDcudo",
   },
   {
     id: 3,
     title: "The Lion King",
     rating: 4.9,
-    image: "https://pics.filmaffinity.com/The_Lion_King-112233-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/fd/0c/44/fd0c44fd41b80385b1a21999a42195f9.jpg",
     trailer: "https://www.youtube.com/embed/7TavVZMewpY",
   },
   {
     id: 4,
     title: "Toy Story 4",
     rating: 4.5,
-    image: "https://pics.filmaffinity.com/Toy_Story_4-998877-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/9e/c4/79/9ec479a0167b6341925308c6d51871e4.jpg",
+    trailer: "https://www.youtube.com/embed/wmiIUN-7qhE",
+  },
+  {
+    id: 1,
+    title: "Frozen II",
+    rating: 4.6,
+    image:
+      "https://i.pinimg.com/736x/8d/b2/0a/8db20a2a357704adb50c6baba3cef42a.jpg",
+    trailer: "https://www.youtube.com/embed/Zi4LMpSDccc",
+  },
+  {
+    id: 2,
+    title: "Encanto",
+    rating: 4.8,
+    image:
+      "https://i.pinimg.com/736x/a8/ea/5b/a8ea5bc912d770ab0a4fd9bd912d2261.jpg",
+    trailer: "https://www.youtube.com/embed/CaimKeDcudo",
+  },
+  {
+    id: 3,
+    title: "The Lion King",
+    rating: 4.9,
+    image:
+      "https://i.pinimg.com/736x/fd/0c/44/fd0c44fd41b80385b1a21999a42195f9.jpg",
+    trailer: "https://www.youtube.com/embed/7TavVZMewpY",
+  },
+  {
+    id: 4,
+    title: "Toy Story 4",
+    rating: 4.5,
+    image:
+      "https://i.pinimg.com/736x/9e/c4/79/9ec479a0167b6341925308c6d51871e4.jpg",
     trailer: "https://www.youtube.com/embed/wmiIUN-7qhE",
   },
 ];

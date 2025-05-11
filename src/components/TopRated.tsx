@@ -16,7 +16,8 @@ const topRatedMovies = [
     id: 2,
     title: "The Fabelmans",
     rating: 4.5,
-    image: "https://pics.filmaffinity.com/The_Fabelmans-691115932-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/ae/4b/6a/ae4b6afb99c94afa9b556e3a57816080.jpg",
     trailer: "https://www.youtube.com/embed/D1G2iLSzOe8",
   },
   {
@@ -24,14 +25,47 @@ const topRatedMovies = [
     title: "Everything Everywhere",
     rating: 4.4,
     image:
-      "https://pics.filmaffinity.com/Everything_Everywhere-112233445-large.jpg",
+      "https://i.pinimg.com/736x/4c/77/b7/4c77b7c9764f787eb0fba1106491552f.jpg",
     trailer: "https://www.youtube.com/embed/wxN1T1uxQ2g",
   },
   {
     id: 4,
     title: "Inception",
     rating: 4.8,
-    image: "https://pics.filmaffinity.com/Inception-123456-large.jpg",
+    image:
+      "https://i.pinimg.com/736x/b0/ae/a4/b0aea49646879a043ad9f6ec3002e99f.jpg",
+    trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
+  },
+  {
+    id: 1,
+    title: "Top Gun: Maverick",
+    rating: 4.7,
+    image:
+      "https://i.pinimg.com/736x/dc/77/a2/dc77a2ce208d4333898c1650f6d2fba7.jpg",
+    trailer: "https://www.youtube.com/embed/giXco2jaZ_4",
+  },
+  {
+    id: 2,
+    title: "The Fabelmans",
+    rating: 4.5,
+    image:
+      "https://i.pinimg.com/736x/ae/4b/6a/ae4b6afb99c94afa9b556e3a57816080.jpg",
+    trailer: "https://www.youtube.com/embed/D1G2iLSzOe8",
+  },
+  {
+    id: 3,
+    title: "Everything Everywhere",
+    rating: 4.4,
+    image:
+      "https://i.pinimg.com/736x/4c/77/b7/4c77b7c9764f787eb0fba1106491552f.jpg",
+    trailer: "https://www.youtube.com/embed/wxN1T1uxQ2g",
+  },
+  {
+    id: 4,
+    title: "Inception",
+    rating: 4.8,
+    image:
+      "https://i.pinimg.com/736x/b0/ae/a4/b0aea49646879a043ad9f6ec3002e99f.jpg",
     trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
   },
 ];
