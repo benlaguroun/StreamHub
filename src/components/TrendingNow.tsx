@@ -62,7 +62,7 @@ const TrendingNow = () => {
 
   return (
     <section className="py-12">
-      <div className="container">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center space-x-3 mb-4">
           <Flame className="w-6 h-6 text-red-500" />
           <h2 className="text-2xl font-bold">Trending Now</h2>
