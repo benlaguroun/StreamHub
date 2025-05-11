@@ -6,6 +6,7 @@ import Plans from "./pages/PlansPage";
 import Dashboard from "./pages/Dashboard";
 import MoviesShows from "./pages/MoviesShows";
 import Auth from "./pages/Auth";
+import Footer from "./components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 
 function App() {

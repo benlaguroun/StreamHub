@@ -8,6 +8,7 @@ import KidsFamily from "../components/KidsFamily";
 import PopularOnNitflex from "../components/PopularOnNitflex";
 import Originals from "../components/Originals";
 import NewReleases from "../components/NewReleases";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -63,6 +64,7 @@ const HomePage = () => {
       <PopularOnNitflex />
       <Originals />
       <NewReleases />
+      <Footer />
     </main>
   );
 };
