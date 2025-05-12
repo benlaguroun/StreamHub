@@ -1,4 +1,3 @@
-// pages/HomePage.tsx
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -35,10 +34,10 @@ const HomePage = () => {
             transition={{ duration: 0.6 }}
             className="max-w-2xl"
           >
-            <h1 className="text-6xl font-bold mb-6 leading-tight">
-              Unlimited Entertainment at Your Fingertips
+            <h1 className="text-3xl sm:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+              Watch Anywhere, Anytime
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="hidden sm:block text-xl text-muted-foreground mb-8">
               Stream live TV, movies, and sports anywhere, anytime. Start your
               journey today with our premium content library.
             </p>
@@ -48,7 +47,7 @@ const HomePage = () => {
               </Link>
               <Link
                 to="/plans"
-                className="btn bg-muted text-foreground hover:bg-muted/80"
+                className="hidden sm:inline-block btn bg-muted text-foreground hover:bg-muted/80"
               >
                 View Plans
               </Link>
