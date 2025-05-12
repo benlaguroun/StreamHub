@@ -9,6 +9,10 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
+  const handleMobileNavClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-gradient-to-b from-background via-background/90 to-transparent">
       <div className="container py-4">
@@ -94,12 +98,25 @@ const Navbar = () => {
             className="md:hidden absolute left-0 right-0 top-full bg-card/95 backdrop-blur-sm border-t border-muted p-4"
           >
             <div className="flex flex-col space-y-4">
-              <MobileNavLink to="/live" text="Live TV" />
-              <MobileNavLink to="/movies-shows" text="Movies & Shows" />
-              <MobileNavLink to="/plans" text="Plans" />
+              <MobileNavLink
+                to="/live"
+                text="Live TV"
+                onClick={handleMobileNavClick}
+              />
+              <MobileNavLink
+                to="/movies-shows"
+                text="Movies & Shows"
+                onClick={handleMobileNavClick}
+              />
+              <MobileNavLink
+                to="/plans"
+                text="Plans"
+                onClick={handleMobileNavClick}
+              />
               <Link
                 to="/auth"
                 className="btn btn-primary w-full justify-center"
+                onClick={handleMobileNavClick}
               >
                 Sign In
               </Link>
@@ -139,13 +156,22 @@ const NavLink = ({
   );
 };
 
-const MobileNavLink = ({ to, text }: { to: string; text: string }) => {
+const MobileNavLink = ({
+  to,
+  text,
+  onClick,
+}: {
+  to: string;
+  text: string;
+  onClick: () => void;
+}) => {
   const location = useLocation();
   const isActive = location.pathname === to;
 
   return (
     <Link
       to={to}
+      onClick={onClick}
       className={cn(
         "block px-4 py-2 rounded-md transition-colors",
         isActive
