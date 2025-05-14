@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import TrendingNow from "../components/TrendingNow";
@@ -42,7 +41,7 @@ const HomePage = () => {
               journey today with our premium content library.
             </p>
             <div className="flex space-x-4">
-              <Link to="/browse" className="btn btn-primary">
+              <Link to="/auth" className="btn btn-primary">
                 Start Watching
               </Link>
               <Link

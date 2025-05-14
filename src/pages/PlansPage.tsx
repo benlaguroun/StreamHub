@@ -2,6 +2,7 @@ import React from "react";
 import { CheckCircle, PlayCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const plans = [
   {
@@ -134,6 +135,8 @@ const PlansPage = () => {
           </div>
         </div>
       </section>
+      {/* Footer goes here */}
+      <Footer />
     </main>
   );
 };

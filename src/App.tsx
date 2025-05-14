@@ -28,6 +28,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/movies-shows" element={<MoviesShows />} />
+            <Route path="/footer" element={<Footer />} />
           </Routes>
         </motion.div>
       </AnimatePresence>
